@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>message_runtime</name>
-  <version>0.4.8</version>
+  <version>0.4.9</version>
   <description>Package modeling the run-time dependencies for language bindings of messages.</description>
   <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
   <license>BSD</license>
@@ -19,5 +19,5 @@
   <run_depend>roscpp_traits</run_depend>
   <run_depend>rostime</run_depend>
 
-  <run_depend>message_generator</run_depend> <!-- workaround to provide the generators to dry downstream packages -->
+  <run_depend>message_generation</run_depend> <!-- workaround to provide the generators to dry downstream packages -->
 </package>

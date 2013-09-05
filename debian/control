@@ -1,0 +1,12 @@
+Source: ros-groovy-message-runtime
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/message_runtime
+Standards-Version: 3.9.2
+
+Package: ros-groovy-message-runtime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-cpp-common, ros-groovy-genpy, ros-groovy-roscpp-serialization, ros-groovy-roscpp-traits, ros-groovy-rostime
+Description: Package modeling the run-time dependencies for language bindings of messages.

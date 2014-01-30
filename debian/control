@@ -1,0 +1,12 @@
+Source: ros-indigo-message-runtime
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin
+Homepage: http://ros.org/wiki/message_runtime
+Standards-Version: 3.9.2
+
+Package: ros-indigo-message-runtime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-cpp-common, ros-indigo-genpy, ros-indigo-roscpp-serialization, ros-indigo-roscpp-traits, ros-indigo-rostime
+Description: Package modeling the run-time dependencies for language bindings of messages.
